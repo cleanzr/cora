@@ -1,8 +1,8 @@
 Package: cora
 Title: Cora Data for Entity Resolution
 Version: 0.1.0
-Authors@R: c(person("Rebecca", "Steorts", email= "beka@stat.duke.edu", role=c("aut", "cre")), person("Andee", "Kaplan", email= "andrea.kaplan@duke.edu", role="aut"), person("Srini.", "Sunil", email="srinivas.sunil@duke.edu", role="aut"))
-Description: This package contains formatted data from the Cora data set. The Cora data set contains 1879 records with information on published papers. The following variables are included in the data set: id, title, book title, authors, address, date, year, editor, journal, volume, pages, publisher, institution, type, tech, note. The data set has a respective gold data set that provides information on which records match based on id. 
+Authors@R: c(person("Rebecca", "Steorts", email= "beka@stat.duke.edu", role=c("aut", "cre")), person("Andee", "Kaplan", email= "andrea.kaplan@duke.edu", role="aut"), person("Srini", "Sunil", email="srinivas.sunil@duke.edu", role="aut"))
+Description: Duplicated publication data (pre-processed and formatted) for entity resolution. This data set contains a total of 1879 records. The following variables are included in the data set: id, title, book title, authors, address, date, year, editor, journal, volume, pages, publisher, institution, type, tech, note. The data set has a respective gold data set that provides information on which records match based on id. 
 URL: https://github.com/resteorts/cora
 BugReports: https://github.com/resteorts/cora/issues
 Depends: R (>= 3.4.0)
